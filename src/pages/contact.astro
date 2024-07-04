@@ -1,0 +1,43 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+
+---
+
+
+	<MainLayout title="contact page">
+    <div class="hero bg-base-200 min-h-screen mx-auto">
+      <div class="hero-content flex-col lg:flex-row-reverse mx-10">
+        <div class="text-center lg:text-left">
+          <h1 class="text-5xl font-bold">Contact now!</h1>
+          <p class="py-6 font-semibold">
+           Simple contact form to put a similar view from a simple contact form.
+          </p>
+        </div>
+        <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+          <form class="card-body">
+            <div class="form-control">
+              <label class="label">
+                <span class="label-text">Email</span>
+              </label>
+              <input type="email" placeholder="email" class="input input-bordered" required />
+            </div>
+            <div class="form-control">
+              <label class="label">
+                <span class="label-text">Password</span>
+              </label>
+              <input type="password" placeholder="password" class="input input-bordered" required />
+              <label class="label">
+                <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
+              </label>
+            </div>
+            <div class="form-control mt-6">
+              <button class="btn btn-primary">Login</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+	</MainLayout>
+
+
